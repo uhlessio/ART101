@@ -4,11 +4,22 @@ h1 {
     text-align: center;
     padding: 15px;
 }
-body { background-color: rgba(158, 120, 6, 0.109);}
+
+body {
+    background-color: rgba(158, 120, 6, 0.109);
+}
+
 img {
-    height:auto;
+    height: auto;
     width: 100%;
+}
+
+#zev {
+    float: left;
+    width: 50%;
 
 }
-h3{
+#aiden {
+    float: right;
+    width: 50%;
 }
