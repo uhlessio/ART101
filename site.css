@@ -1,0 +1,14 @@
+h1 {
+    color: rgb(16, 0, 117);
+    background-color: rgb(209, 137, 37);
+    text-align: center;
+    padding: 15px;
+}
+body { background-color: rgba(158, 120, 6, 0.109);}
+img {
+    height:auto;
+    width: 100%;
+
+}
+h3{
+}
