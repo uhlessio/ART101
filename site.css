@@ -3,15 +3,31 @@ h1 {
     background-color: rgb(209, 137, 37);
     text-align: center;
     padding: 15px;
+    font-family:"opticolumna-solid";
+}
+
+h2 {
+    border-style:dotted;
+    border-color: rgb(209, 137, 37);
+    text-align: center;
+    color: rgb(16, 0, 117);
+}
+h3 {
+    color: deeppink;
+    text-align: center;
+    font-family:"opticolumna-solid";
 }
 
 body {
     background-color: rgba(158, 120, 6, 0.109);
 }
 
-img {
-    height: auto;
-    width: 100%;
+#snap {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-style:solid;
+    border-color: rgb(144, 144, 172);
 }
 
 #zev {
@@ -24,3 +40,5 @@ img {
     float: right;
     width: 50%;
 }
+@font-face{font-family:"opticolumna-solid";
+src:url("fonts/OPTIColumna-Solid.otf");}
