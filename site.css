@@ -3,19 +3,23 @@ h1 {
     background-color: rgb(209, 137, 37);
     text-align: center;
     padding: 15px;
-    font-family:"opticolumna-solid";
+    font-family: "opticolumna-solid";
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 0px -5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 0px -5px
 }
 
 h2 {
-    border-style:dotted;
+    border-style: dotted;
     border-color: rgb(209, 137, 37);
     text-align: center;
     color: rgb(16, 0, 117);
 }
+
 h3 {
     color: deeppink;
     text-align: center;
-    font-family:"opticolumna-solid";
+    font-family: "opticolumna-solid";
+    font-style: italic;
 }
 
 body {
@@ -25,20 +29,55 @@ body {
 #snap {
     display: block;
     margin: auto;
-    width: 80%;
-    border-style:solid;
+    max-width: 80%;
+    height: auto;
+    border-style: solid;
     border-color: rgb(144, 144, 172);
 }
 
 #zev {
-    float: left;
-    width: 50%;
-
+    display: block;
+    max-width: 48.5%;
+    height: auto;
+    border-style: solid;
+    border-color: rgb(144, 144, 172);
+}
+#zev:hover {
+    border-color: red;
+    transition: linear 500ms;
 }
 
 #aiden {
-    float: right;
-    width: 50%;
+    display: block;
+    max-width: 48.5%;
+    height: auto;
+    border-style: solid;
+    border-color: rgb(144, 144, 172);
 }
-@font-face{font-family:"opticolumna-solid";
-src:url("fonts/OPTIColumna-Solid.otf");}
+
+@font-face {
+    font-family: "opticolumna-solid";
+    src: url("fonts/OPTIColumna-Solid.otf");
+}
+
+
+a {
+    color: rgb(22, 163, 14);
+}
+
+a:hover {
+    color: rgb(21, 35, 139);
+}
+
+#snap:hover {
+    border-color: red;
+    transition: linear 500ms;
+}
+
+#aiden:hover {
+    transition: linear 500ms;
+    border-color: red; 
+}
+#gallery {display: flex; column-gap: 5px;}
+
+
