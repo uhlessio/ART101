@@ -1,0 +1,10 @@
+#pan-home { position: relative; height: 100vh}
+
+#chicken { position: absolute; bottom: 10px; left: 40%;}
+
+#chicken2 { position: absolute; bottom: 50px; right: 10vw;}
+
+#chicken3 { position: absolute; bottom: 80px; left: 70%;}
+h1 {color:red}
+#homelink { position: absolute; top: 50px; right: 50px;}
+#homelink IMG { width: 40px;}
