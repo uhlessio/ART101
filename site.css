@@ -26,11 +26,36 @@ body {
     background-color: rgba(158, 120, 6, 0.109);
 }
 
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: rgb(231, 230, 220);
+    padding: 30px;
+}
+
+.top-section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 15px 0;
+}
+
+.profile {
+    text-align: center;
+    flex: 1;
+}
+
+.profile img {
+    width: 500px;
+    ;
+}
+
+.profile p {
+    font-size: 90%;
+}
+
 #snap {
     display: block;
-    margin: auto;
-    max-width: 80%;
-    height: auto;
     border-style: solid;
     border-color: rgb(144, 144, 172);
 }
@@ -42,6 +67,7 @@ body {
     border-style: solid;
     border-color: rgb(144, 144, 172);
 }
+
 #zev:hover {
     border-color: red;
     transition: linear 500ms;
@@ -76,8 +102,51 @@ a:hover {
 
 #aiden:hover {
     transition: linear 500ms;
-    border-color: red; 
+    border-color: red;
 }
-#gallery {display: flex; column-gap: 5px;}
 
+#gallery {
+    display: flex;
+    column-gap: 5px;
+}
 
+#brinstartitle {
+    font-family: "opticolumna-solid";
+}
+
+#brinstarlink {
+    font-family: "opticolumna-solid";
+}
+
+#buttonlink {
+    font-family: "opticolumna-solid";
+}
+
+.navigation {
+    background: #fff7e8;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+.navigation a {
+    color: rgb(22, 163, 14);
+    font-weight: bold;
+
+}
+
+.navigation a:hover {
+    color: rgb(21, 35, 139);
+}
+
+#introduction {
+    background-color: #E1EEFF;
+    padding: 10px;
+}
