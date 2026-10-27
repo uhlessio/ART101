@@ -18,7 +18,7 @@ $("#needy-button").click(function () {
     console.log(count);
     console.log(colors[colorcount]);
 
-    buttonText="you clicked  me " + count + " fuckin times and the color is " + colors[colorcount];
+    buttonText="you clicked  me " + count + "times and the color is " + colors[colorcount];
 
     $("#needy-button").html(buttonText)
 
@@ -28,7 +28,7 @@ $("#needy-button").click(function () {
 
   if (count >=15) {  $("#needy-button") .after("<p>*mmmmmmm*</p> ");   }
   else if (count>=10){  $("#needy-button") .after("<p>*oops*</p> ");   }
-  else if (count>=5){  $("#needy-button") .after("<p>*fart*</p> ");   }
+  else if (count>=5){  $("#needy-button") .after("<p>*burp*</p> ");   }
   
     //if( (count >= 5) && (count< 13) ) {  $("#needy-button") .after("<p>*fart*</p> ");   }
    
