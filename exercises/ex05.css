@@ -1,0 +1,19 @@
+.color-circle {
+   display: inline-block;
+   width: 36px;
+   height: 36px;
+   margin-right: 8px;
+   border: 2px solid black;
+   border-radius: 50%;
+   cursor: pointer;
+}
+#red {background-color: red; }
+#green  { background-color: green; }
+#orange { background-color: orange; }
+#yellow {background-color: yellow; }
+#pink   { background-color: pink; } 
+#blue {background-color: blue; }
+#indigo {background-color: indigo; }
+#violet { background-color: violet; }
+#azure { background-color: azure; }
+#chartreuse { background-color:chartreuse; }
